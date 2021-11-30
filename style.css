@@ -1,0 +1,329 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: left;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    margin: 15px;
+}
+    
+.navbar-list{
+    margin-top: -48px;
+    font-size: 20px;
+}    
+
+.navbar-kanan a {
+    padding: 0 25px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+    float: right;
+}
+  
+.navbar-kanan a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+   padding: 180px 0 100px 0;
+   background-image: url(https://c0.wallpaperflare.com/preview/705/911/812/pottery-thai-traditional-art.jpg);
+   background-size: 100%;
+   text-align: left;
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.container {
+   width: 1170px;
+   margin: 0 auto;
+}
+
+.top-wrapper h2 {
+    text-align: left;
+    color: white;
+    margin-bottom: 0px;
+}
+.top-wrapper h1 {
+   font-size: 35px;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+   background-color: burlywood;
+   color:white;
+   border-radius: 10px;
+   opacity: 1;
+   display: inline-block;
+   padding: 10px 20px;
+}
+  
+.top-wrapper p {
+   margin-bottom: 3px;
+   color: white;
+   text-align: left;
+}
+  
+.btn-wrapper {
+   margin: 20px 0;
+   text-align: left;
+}
+
+.btn-wrapper a {
+    text-decoration:none;
+    line-height: 20px;
+    color: inherit;
+}
+
+.reservation {
+   background-color: #239b76;
+   padding: 10px 20px;
+   display: inline-block;
+   opacity: 1;
+   border-radius: 20px;
+}
+
+.reservation:hover {
+    opacity: 0.8;
+}
+
+.login {
+    background-color: #239b76;
+    padding: 10px 20px;
+    display: inline-block;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.login:hover {
+    opacity: 0.8;
+}
+
+.heading h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: burlywood;
+    cursor: pointer;
+    box-shadow: 0 7px rgb(67, 128, 128);
+    font-size: 15px;
+    text-align: center;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.message-wrapper img {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    animation: none;
+}
+
+.section-title {
+    border-bottom: 2px solid burlywood;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+/* Ketik code Anda dibaris bawah */
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    display: none;
+}
+
+.menu-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.diskon-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+  
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+  
+.heading h2 {
+    font-weight: normal;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+}
+
+.diskon {
+    float: left;
+    width: 33.33%;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    animation: ZoomIn 3s;
+}
+
+@keyframes ZoomIn {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        width: 220px;
+        height: 220px;
+    }
+}
+  
+.menu-icon {
+    position: relative;
+}
+
+.diskon-icon {
+    position: relative;
+}
+.menu-icon p {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    color: white;
+}
+
+.diskon-icon p {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+  
+.heading h3 {
+    font-weight: normal;
+}
+.btn-diskon span{
+    text-decoration: line-through;
+} 
+
+.fa {
+    margin-right: 5px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+
+.footer {
+    background-color: darkslategrey;
+    height: 250px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 20px;
+    color: white;
+}
+  
+.footer-list {
+    float: right;
+}
+  
+.footer-list li {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
